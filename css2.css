@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+      
+    background: linear-gradient(to right, white 0%, grey 100%);
+    font-family: 'open sans',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .cn{
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 5px solid black;
+    border-top:3px solid black ;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    box-shadow: 0 2px 5px rgba(0 , 0 , 0 , 3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    height: 650px;
+  }
+  
+   
+  .he{
+    background-color: #f7f7f7;
+    border-bottom: 2px solid black;
+    padding: 20px 110px;
+  }
+  .he h2{
+    margin: 0;
+  }
+  .form{
+    padding: 30px 40px;
+  }
+  
+  .form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label{
+    
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .form-control input{
+    
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .form-control.success input{
+border-color: #2ecc71;
+  }
+
+  .form-control.error input{
+    border-color: #e74c3c;
+  }
+
+  
+  .form-control i{
+      position: absolute;
+      top: 40px;
+      right: 10px;
+      visibility: hidden;
+  }
+  .form-control.success i.fo-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+  }
+
+  .form-control.error i.fo-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+  }
+
+  .form-control small{
+      visibility: hidden;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  .form-control.erroe small{
+    color: #e74c3c;
+    visibility: visible;
+  }
+
+  .form button{
+    
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 4px;
+      
+      color: black;
+      display: block;
+      padding: 10px;
+      font-size: 16px;
+      font-family: inherit;
+      width: 100%;
+
+  }
+  .form button:hover{
+    color: white;
+    /* background: linear-gradient(to right, #ff3019 0%, #c90477 100%); */
+    background: linear-gradient(to right, grey 0%, white 100%);
+  }
+  
+  .btn-container {
+    padding: 30px 11px;
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-i {
+    min-width: 100px;
+    background-color: #fff;
+    padding: 1em 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #c71e7e;
+    display: flex;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.btn-i i {
+    color: #df3796;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-i span {
+    font-family: sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+}
+.btn-i:hover {
+  justify-content: center;
+    transform: scale(1.1);
+    /* background: linear-gradient(to right, #ff3019 0%, #c90477 100%); */
+    background: linear-gradient(to right, grey 0%, white 100%);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.btn-i:hover i {
+    transform: translateX(45px);
+    padding-right: 0;
+    color: linear-gradient(to right, #ff3019 0%, #c90477 100%);
+    
+}
+.btn-i:hover span {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+
+
+
+
+.btn-containe {
+  justify-content: center;
+  padding: 30px 11px;
+  height: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-ii {
+  min-width: 100px;
+  background-color: #fff;
+  padding: 1em 2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  color: black;
+  display: flex;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.b-ii i {
+  
+  color: black;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.b-ii span {
+  
+  font-family: sans-serif;
+  align-self: center;
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.b-ii:hover {
+  transform: scale(1.1);
+  /* background: linear-gradient(to right, #ff3019 0%, #c90477 100%); */
+  background: linear-gradient(to right, grey 0%, white 100%);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+}
+.b-ii:hover i {
+  margin-left: 33px;
+  justify-content: center;
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.b-ii:hover span {
+  
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+  
